@@ -1,0 +1,50 @@
+// UNIVERSAL SETTINGS
+$small-radius: 5px;
+$medium-radius: 10px;
+$large-radius: 100px; // makes circle corners  
+$circle: 100%;
+$shadow: none;
+
+$base-color: #404041;  
+
+// TYPE
+$web-fonts: "Merriweather:300,300i,400,400i,700,700i|Quicksand:300,400,500,700";
+
+$base-font: 'Merriweather', Georgia, serif;  				
+$secondary-font: 'Quicksand', Helvetica, Arial, sans-serif;    
+
+$base-font-size: 1.8rem;
+
+$h1-size: 3.8rem;
+$h1-font: $secondary-font;
+$h1-weight: 400;
+$h1-style: normal;
+
+$h2-size:  2.0rem;
+$h2-font: $secondary-font;
+$h2-weight: 700;
+$h2-style: normal;
+
+$h3-size: 1.8rem;
+$h3-font: $secondary-font;
+$h3-weight: 700;
+$h3-style: normal;
+
+
+// SITE SETTINGS 
+$orange: #f7bf5c;
+$red: #f4836d;
+$blue: #9fcbec;
+$softorange: #f8d7a5;
+$softred: #f0b19c;
+$softblue: #bddae9;
+$softblack: #404041;
+$gray: #dfded4;
+$softgray: #efefe8;
+
+$h1-color: $base-color;
+$h2-color: $base-color;
+$h3-color: $base-color;
+
+$link-color: $red;
+$link-hover-color: $orange;

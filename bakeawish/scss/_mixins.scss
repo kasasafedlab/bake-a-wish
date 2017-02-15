@@ -1,0 +1,144 @@
+@import "variables";
+
+@mixin resetText {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+@mixin resetButton {
+  -webkit-appearance: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+@mixin clearFix() {
+    &:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}
+
+@mixin circle($dimension) {
+    width: $dimension;
+    height: $dimension;
+    border-radius: 50%;
+}
+
+@mixin h1 {
+	font-size: $h1-size;
+	@if variable-exists(h1-font) { font-family: $h1-font; } 
+	@if variable-exists(h1-weight) { font-weight: $h1-weight; } 
+	color: $h1-color;
+	text-transform: uppercase;
+}
+
+@mixin h2 {
+	font-size: $h2-size;
+	@if variable-exists(h2-font) { font-family: $h2-font; } 
+	@if variable-exists(h2-weight) { font-weight: $h2-weight; }
+	color: $h2-color;
+	text-transform: uppercase;
+}
+
+@mixin h3 {
+	font-size: $h3-size;
+	@if variable-exists(h3-font) { font-family: $h3-font; } 
+	@if variable-exists(h3-weight) { font-weight: $h3-weight; }
+	color: $h3-color;
+}
+
+// Insert FontAwesome Icon as pseudo element, default is circle-arrow-right
+@mixin faIcon($content: "\f0a9") {
+    content: $content;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+@mixin fs($args){
+    font-size: $args + px; // fallback
+    font-size: ($args/10) + rem;
+}
+
+@mixin f($family, $size, $weight: 400, $style: normal) {
+    font-family: $family;
+    @include fs($size);
+    font-weight: $weight;
+    font-style: $style;
+}
+
+@mixin verticalCenter {
+	position: relative;
+	top: 50%;
+	@include transform(translateY(-50%));
+	z-index: 2;
+}
+
+@mixin csscolumns($count, $width) {
+   -webkit-columns: $count $width;
+   -moz-columns: $count $width;
+    columns: $count $width;
+}
+
+@mixin columngap($gap) {
+  -webkit-column-gap: $gap;
+    -moz-column-gap: $gap;
+     column-gap: $gap;
+}
+
+@mixin nocolumnbreak {
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -o-column-break-inside: avoid;
+    column-break-inside: avoid;
+    display: inline-block;
+}
+
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    transition: $args;
+}
+
+@mixin translate($x, $y) {
+    -webkit-transform: translate($x, $y);
+    -moz-transform: translate($x, $y);
+    -o-transform: translate($x, $y);
+    -ms-transform: translate($x, $y);
+    transform: translate($x, $y);
+}
+
+@mixin transform($args, $origin:false) {
+    -webkit-transform: unquote($args);
+    -moz-transform: unquote($args);
+    -o-transform: unquote($args);
+    -ms-transform: unquote($args);
+    transform: unquote($args);
+
+    @if $origin != false {
+        -webkit-transform-origin: $origin;
+        -moz-transform-origin: $origin;
+        -ms-transform-origin: $origin;
+        transform-origin: $origin;
+    }
+}
+
+@mixin accelerate() {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}

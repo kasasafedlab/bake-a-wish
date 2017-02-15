@@ -105,7 +105,7 @@ add_action( 'widgets_init', 'bakeawish_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bakeawish_scripts() {
-	wp_enqueue_style( 'bakeawish-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'bakeawish-style', get_stylesheet_uri() . '/css/all-styles.css',false,'1.1','all');
 
 	wp_enqueue_script( 'bakeawish-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

@@ -1,0 +1,88 @@
+@import "mixins";
+
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=#{$web-fonts});
+
+
+html {
+    font-size: 62.5%; // rem reset
+    box-sizing: border-box;
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+#_d, .share-popup, #siteAlert { box-sizing: content-box !important; }
+
+
+body {
+    color: $base-color;
+    font-family: $base-font;
+    font-size: 150%; // rem baseline
+    line-height: 1.6;
+    font-weight: 400;
+    background: #fff;
+	overflow-x:hidden;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// TYPOGRAPHY
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $base-font;
+	font-weight: normal;
+	line-height: 1.2;
+	.main & { margin: 0 0 .5em; }
+}
+
+
+h1, .h1 {
+	@include h1;
+}
+
+h2, .h2 {
+	@include h2;
+}
+
+h3, .h3 {
+	@include h3;
+}
+
+a {
+	text-decoration: underline;
+	color: $link-color;
+	&:hover { color: $link-hover-color; }
+}
+
+p, li {
+	font-size: $base-font-size;
+	font-family: $base-font;
+	line-height: 1.5;
+}
+
+p {
+	margin: 0 0 20px;
+}
+
+ul, ol {
+	margin: 0 0 20px 3em;
+	li {
+		list-style: disc outside;
+		margin: 0 0 1rem 16px;
+
+		ul, ol {
+			margin-bottom: 0;
+			margin-top: 1rem;
+			li {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+ol li { list-style: decimal outside; }
+
+
+// IMAGES
+img { max-width: 100%; }
