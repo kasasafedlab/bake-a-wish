@@ -37,6 +37,19 @@
 	@if variable-exists(h1-weight) { font-weight: $h1-weight; } 
 	color: $h1-color;
 	text-transform: uppercase;
+	letter-spacing: .04em;
+	text-align: center;
+	position: relative;
+	padding-bottom: 36px;
+	&:after{
+		content: '';
+		width: 48px;
+		height: 5px;
+		border-radius: 1px;
+		background: $orange;
+		position: absolute;
+		bottom: 0; left: 0; right: 0; margin: 0 auto;
+	}
 }
 
 @mixin h2 {
@@ -45,6 +58,7 @@
 	@if variable-exists(h2-weight) { font-weight: $h2-weight; }
 	color: $h2-color;
 	text-transform: uppercase;
+	letter-spacing: .06em;
 }
 
 @mixin h3 {
@@ -52,6 +66,7 @@
 	@if variable-exists(h3-font) { font-family: $h3-font; } 
 	@if variable-exists(h3-weight) { font-weight: $h3-weight; }
 	color: $h3-color;
+	letter-spacing: .06em;
 }
 
 // Insert FontAwesome Icon as pseudo element, default is circle-arrow-right
