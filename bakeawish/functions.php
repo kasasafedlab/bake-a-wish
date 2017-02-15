@@ -105,12 +105,6 @@ add_action( 'widgets_init', 'bakeawish_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bakeawish_scripts() {
-	wp_enqueue_style( 'bakeawish-style', get_stylesheet_uri() . '/css/all-styles.css',false,'1.1','all');
-
-	wp_enqueue_script( 'bakeawish-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
-	wp_enqueue_script( 'bakeawish-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-
 	wp_register_script( 'bootstrap-js', get_template_directory_uri() . '/bootstrap-3.3.7-dist/js/bootstrap.min.js', array( 'jquery' ), '3.0.1', true );
 
 	wp_register_style( 'bootstrap-css', get_template_directory_uri() . '/bootstrap-3.3.7-dist/css/bootstrap.min.css', array(), '3.0.1', 'all' );
@@ -118,6 +112,14 @@ function bakeawish_scripts() {
 	wp_enqueue_script( 'bootstrap-js' );
 
 	wp_enqueue_style( 'bootstrap-css' );
+	
+	wp_enqueue_style( 'bakeawish-style', get_template_directory_uri() . '/css/all-styles.css',false,'1.1','all');
+
+	wp_enqueue_script( 'bakeawish-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'bakeawish-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+
+	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
