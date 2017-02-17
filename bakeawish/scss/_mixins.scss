@@ -150,6 +150,27 @@
     }
 }
 
+@mixin button() {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	background: $red;
+	border-radius: 10px;
+	min-height: 40px;
+	padding: 5px 30px;
+	margin: 0;
+	max-width: 100%;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	@include fs(18);
+	font-family: $secondary-font;
+	&:hover {
+		background: $orange;
+	}
+}
+
 @mixin accelerate() {
     -webkit-transform: translateZ(0);
     -moz-transform: translateZ(0);

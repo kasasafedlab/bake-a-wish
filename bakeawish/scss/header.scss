@@ -1,3 +1,79 @@
 @import "mixins";
 
 // *** --------- HEADER --------- *** //
+
+header{
+	.logo{
+		max-width: 220px;
+		margin: 18px 0;
+	}
+	nav{
+		#primary-menu{
+			padding: 0;
+			margin: 0;
+			li{
+				list-style: none;
+				margin: 0;
+				a{
+					color: $base-color;
+					text-transform: uppercase;
+					@include fs(12);
+					letter-spacing: 1px;
+					&:hover{
+						color: $red;
+					}
+				}
+			}
+		}
+		button{
+			
+		}
+	}
+	
+	// Small devices (landscape phones, 576px and up)
+	@media (min-width: 576px) {
+		
+	}
+
+
+	// Medium devices (tablets, 768px and up)
+	@media (min-width: 768px) {
+		nav{
+			text-align: right;
+			padding-top: 30px;
+			> div {
+				display: inline-block;
+				vertical-align: middle;
+			}
+			#primary-menu{
+				padding: 0;
+				margin: 0;
+				li{
+					list-style: none;
+					margin: 0;
+					display: inline-block;
+					~ li {
+						margin-left: 35px;
+					}
+				}
+			}
+			button{
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 35px;
+			}
+		}
+	}
+
+
+	// Large devices (desktops, 992px and up)
+	@media (min-width: 992px) {
+
+	}
+
+
+	// Extra large devices (large desktops, 1200px and up)
+	@media (min-width: 1200px) {
+
+	}
+}
