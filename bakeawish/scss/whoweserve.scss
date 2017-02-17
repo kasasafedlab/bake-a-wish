@@ -3,3 +3,10 @@
 // *** --------- WHO WE SERVE --------- *** //
 
 /* RECENT POSTS*/
+ul.recent-posts {
+	margin: 0px;
+		li {
+			list-style: none;
+			margin:0px;
+		}
+}

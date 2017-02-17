@@ -160,3 +160,47 @@ function my_excerpt_length( $length ) {
         return 36;
 }
 add_filter( 'excerpt_length', 'my_excerpt_length' );
+
+/**
+ * Load Gallery compatibility file.
+ */
+function my_custom_post_types() {
+	$labels = array(
+		'name'               => 'Gallery',
+		'singular_name'      => 'Gallery Image',
+		'menu_name'          => 'Gallery',
+		'name_admin_bar'     => 'Gallery',
+		'add_new'            => 'Add New',
+		'add_new_item'       => 'Add New Image',
+		'new_item'           => 'New Image',
+		'edit_item'          => 'Edit Image',
+		'view_item'          => 'View Image',
+		'all_items'          => 'All Gallery Images',
+		'search_items'       => 'Search Images',
+		'parent_item_colon'  => 'Parent Images:',
+		'not_found'          => 'No images found.',
+		'not_found_in_trash' => 'No images found in Trash.'
+	);
+
+	$args = array( 
+		'public'      => true, 
+		'labels'      => $labels,
+		'description' => 'Your beautiful cakes will be published using this post type',
+		'menu_icon'   => 'dashicons-images-alt2',
+		'taxonomies'  => array('category'),
+		'supports' 	  => array('title','')
+	);
+    	register_post_type( 'gallery', $args );
+}
+add_action( 'init', 'my_custom_post_types' );
+
+/**
+* Gallery Image Sizes
+*/
+add_theme_support( 'post-thumbnails' );
+add_image_size( 'gallery-thumb', 340, 9999 );
+add_image_size( 'gallery-popup', 1540, 600 );
+
+@ini_set( 'upload_max_size' , '2M' );
+@ini_set( 'post_max_size', '2M');
+@ini_set( 'max_execution_time', '100' );
