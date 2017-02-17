@@ -17,19 +17,25 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 	
-	<script src="js/site.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/js/site.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header" role="banner">
+		<div id="mobileMenu"><span class="close">Close <i class="fa fa-times"></i></span></div>
+		
 		<div class="container">
 			<div class="col-md-3 site-branding">
 				<div class="logo">
 					<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/image/logo-2x.png" alt="Bake A Wish" />
 				</div>
-				
-				<div id="mobileMenu"><span class="close">Close <i class="fa fa-times"></i></span></div>
+
+				<div class="primaryNavLink mobileInlineBlock">
+					<i class="fa fa-bars"></i>
+					Menu
+				</div>
 			</div>
 
 			<nav id="site-navigation" class="col-md-9 main-navigation" role="navigation">
