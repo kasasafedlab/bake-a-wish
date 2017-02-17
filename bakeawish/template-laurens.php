@@ -15,14 +15,14 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main container" role="main">
 
 		<?php
 			while ( have_posts() ) : the_post(); ?>
-			<ul>
+			<ul class="recent-posts">
 			<?php $the_query = new WP_Query( 'posts_per_page=5' ); 
 			 while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
-			<li>
+			<li class="col-sm-4">
 				<h4><?php the_title(); ?></h4>
 				<p><?php the_excerpt(); ?></p>
 				<a href="<?php the_excerpt(); ?>">Learn More</a>
