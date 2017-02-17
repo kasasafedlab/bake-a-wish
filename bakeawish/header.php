@@ -29,7 +29,7 @@
 		<div class="container">
 			<div class="col-md-3 site-branding">
 				<div class="logo">
-					<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/image/logo-2x.png" alt="Bake A Wish" />
+					<a href="/"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/image/logo-2x.png" alt="Bake A Wish" /></a>
 				</div>
 
 				<div class="primaryNavLink mobileInlineBlock">
