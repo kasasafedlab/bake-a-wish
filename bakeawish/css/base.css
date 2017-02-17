@@ -112,6 +112,28 @@ ul, ol {
 ol li {
   list-style: decimal outside; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000384}}
+button {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background: #f4836d;
+  border-radius: 10px;
+  min-height: 40px;
+  padding: 5px 30px;
+  margin: 0;
+  max-width: 100%;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-family: "Quicksand", Helvetica, Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/_mixins\.scss}line{font-family:\00003169}}
+  button:hover {
+    background: #f7bf5c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000389}}
 img {
   max-width: 100%; }

@@ -115,6 +115,8 @@ function bakeawish_scripts() {
 	
 	wp_enqueue_style( 'bakeawish-style', get_template_directory_uri() . '/css/all-styles.css',false,'1.1','all');
 
+	//wp_enqueue_script( 'bakeawish-script', get_template_directory_uri() . '/js/site.js', array( 'jquery' ), '1.1', true);
+	
 	wp_enqueue_script( 'bakeawish-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'bakeawish-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

@@ -81,6 +81,9 @@ ul, ol {
 }
 ol li { list-style: decimal outside; }
 
+button{
+	@include button();
+}
 
 // IMAGES
 img { max-width: 100%; }
