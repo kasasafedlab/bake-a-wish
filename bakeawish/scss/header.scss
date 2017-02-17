@@ -124,7 +124,8 @@ header{
 		.primaryNavLink{ display: none; }
 		nav{
 			text-align: center;
-			padding-top: 20px;
+			padding-top: 10px;
+			padding-bottom: 20px;
 			> div {
 				display: inline-block;
 				vertical-align: middle;
@@ -153,6 +154,7 @@ header{
 		nav{
 			text-align: right;
 			padding-top: 30px;
+			padding-bottom: 0;
 		}
 	}
 

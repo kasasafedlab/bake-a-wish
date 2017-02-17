@@ -14,11 +14,21 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'bakeawish' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'bakeawish' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'bakeawish' ), 'bakeawish', '<a href="https://automattic.com/" rel="designer">Kasasa FEDLab</a>' ); ?>
-		</div><!-- .site-info -->
+		<div class="container">
+			<div class="copyright col-sm-6">
+				<span>Copyright © <?php echo date("Y"); ?> Bake A Wish Austin. All Rights Reserved.</span>
+			</div>
+			
+			<div class="social col-sm-6">
+				<div class="social-links">
+					<a href="https://www.facebook.com/BakeAWishAustin/" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="http://twitter.com/BakeAWishAustin" target="_blank"><i class="fa fa-twitter"></i></a>
+					<a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+				</div>
+				<button href="/how-to-help/" class="give-button">Give</button>
+			</div>
+		</div>
+		
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
