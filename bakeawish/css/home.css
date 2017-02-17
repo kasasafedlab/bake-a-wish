@@ -1,4 +1,21 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\000035}}
-p {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\000034}}
+#banner-text {
+  position: relative;
+  bottom: 260px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\000038}}
+#banner-text p, #banner-text h2 {
   text-align: center !important;
-  font-family: "Quicksand", Helvetica, Arial, sans-serif; }
+  color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000313}}
+#banner-text p {
+  font-size: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000317}}
+#banner-text h2 {
+  font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  width: 410px;
+  font-size: 25px;
+  margin: -34px auto; }
