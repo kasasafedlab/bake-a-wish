@@ -1,9 +1,17 @@
 @import "mixins";
 
 // *** --------- HOMEPAGE --------- *** //
+.banner{
+	position: relative;
+}
+.heroImage{
+	@include fullWidthBg(inherit);
+	background-size: cover;
+	background-position: top center;
+}
 #banner-text{
-    position: relative;
-    bottom: 260px;
+    padding-top: 14%;
+    padding-bottom: 20%;
 }
 #banner-text p, #banner-text h2{
 	text-align: center !important;
@@ -21,7 +29,7 @@
 	font-size: 30px;
 }
 .fpSection{
-	margin-top: -50px;
+	margin: 60px 0;
 	.fpContent{
 		font-size: 12px;
 	}

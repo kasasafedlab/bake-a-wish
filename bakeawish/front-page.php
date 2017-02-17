@@ -56,19 +56,18 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
-			<div class="container-fluid">
-			<div class="row">
-				<img class="heroImage image-responsive" src="<?php echo $hero; ?>" />
+			<div class="row banner">
+				<div class="heroImage image-responsive" style="background-image: url('<?php echo $hero; ?>')" ></div>
 				<div class="text-center" id="banner-text">
 				<p><?php echo $bannerTextSmall; ?></p>
-				<h2 class="col-xs-6 col-xs-offset-3"><?php echo $bannerTextLarge; ?></h2>
+				<h2 class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1"><?php echo $bannerTextLarge; ?></h2>
 				</div>
 			</div>
 				<div class="row">
 				<?php
 					for ($i = 0; $i <= count($fpContent)-1; $i++) {
 						?>
-						<div class="col-md-4 fpSection">
+						<div class="col-sm-4 fpSection">
 							<img class="col-xs-4 col-xs-offset-4" src="<?php echo $fpImage[$i]; ?>" />
 							<div class="row">
 							<p class="col-xs-8 col-xs-offset-2 text-center fpContent"><span class="fpHeader"><?php echo $fpContentHeader[$i]; ?></span><br/>
@@ -85,7 +84,6 @@ get_header(); ?>
 					}
 					?>
 				</div>
-			</div>
 			
 			
 		</main><!-- #main -->
