@@ -3,14 +3,34 @@
 // *** --------- HEADER --------- *** //
 
 header{
+	.site-branding{ padding: 0; }
 	.logo{
-		max-width: 220px;
+		max-width: 200px;
 		margin: 18px 0;
+		display: inline-block;
+	}
+	.primaryNavLink{
+		display: inline-block;
+		text-align: center;
+		width: 45px;
+		float: right;
+		font-family: $secondary-font;
+		text-transform: uppercase;
+		font-weight: 700;
+		@include fs(14);
+		color: $red;
+		margin-top: 27px;
+		i{
+			display: block;
+			@include fs(22);
+		}
 	}
 	nav{
 		#primary-menu{
 			padding: 0;
 			margin: 0;
+			
+			display: none; 
 			li{
 				list-style: none;
 				margin: 0;
@@ -26,41 +46,102 @@ header{
 			}
 		}
 		button{
-			
+			display: none;
 		}
 	}
 	
+	#mobileMenu {
+		background: #fff;
+		position: fixed;
+		top: 0;
+		left: 0;
+		display: block;
+		height: 0;
+		overflow: hidden;
+		width: 100%;
+		min-width: 300px;
+		z-index: 900;
+		
+		@include transition(all .5s);
+		&.show-menu {
+			overflow: auto;
+			height: 100%;
+			padding: 15px;
+		}
+
+		.close {
+			cursor: pointer;
+			position: absolute;
+			top: 21px;
+			text-align: right;
+			right: 15px;
+			@include fs(12);
+			text-transform: uppercase;
+			font-family: $secondary-font;
+			&:hover{ color: $red; }
+		}
+		
+		#primary-menu{
+			padding: 0;
+			margin: 0;
+
+			display: block;
+			li{
+				list-style: none;
+				margin: 0;
+				display: block;
+				
+				~ li { margin-top: 12px; }
+				
+				a{
+					color: $base-color;
+					text-transform: uppercase;
+					@include fs(12);
+					letter-spacing: 1px;
+					&:hover{
+						color: $red;
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
+	
 	// Small devices (landscape phones, 576px and up)
 	@media (min-width: 576px) {
-		
+		.site-branding{ padding: 0 15px; }
+		.logo{
+			max-width: 220px;
+		}
 	}
 
 
 	// Medium devices (tablets, 768px and up)
 	@media (min-width: 768px) {
+		.logo{ display: block; margin: 20px auto 0; }
+		.primaryNavLink{ display: none; }
 		nav{
-			text-align: right;
-			padding-top: 30px;
+			text-align: center;
+			padding-top: 20px;
 			> div {
 				display: inline-block;
 				vertical-align: middle;
 			}
 			#primary-menu{
-				padding: 0;
-				margin: 0;
+				display: block;
 				li{
-					list-style: none;
-					margin: 0;
 					display: inline-block;
 					~ li {
-						margin-left: 35px;
+						margin-left: 20px;
 					}
 				}
 			}
 			button{
 				display: inline-block;
 				vertical-align: middle;
-				margin-left: 35px;
+				margin-left: 20px;
 			}
 		}
 	}
@@ -68,12 +149,28 @@ header{
 
 	// Large devices (desktops, 992px and up)
 	@media (min-width: 992px) {
-
+		.logo{ margin: 20px 0; max-width: 200px; }
+		nav{
+			text-align: right;
+			padding-top: 30px;
+		}
 	}
 
 
 	// Extra large devices (large desktops, 1200px and up)
 	@media (min-width: 1200px) {
-
+		.logo{ max-width: 220px; }
+		nav{
+			text-align: right;
+			padding-top: 30px;
+			#primary-menu{
+				li{
+					~ li {
+						margin-left: 35px;
+					}
+				}
+			}
+			button{ margin-left: 35px; }
+		}
 	}
 }

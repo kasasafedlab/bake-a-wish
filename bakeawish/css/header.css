@@ -1,48 +1,166 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\000036}}
+header .site-branding {
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\000037}}
 header .logo {
-  max-width: 220px;
-  margin: 18px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000311}}
+  max-width: 200px;
+  margin: 18px 0;
+  display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000312}}
+header .primaryNavLink {
+  display: inline-block;
+  text-align: center;
+  width: 45px;
+  float: right;
+  font-family: "Quicksand", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #f4836d;
+  margin-top: 27px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000323}}
+  header .primaryNavLink i {
+    display: block;
+    font-size: 22px;
+    font-size: 2.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000329}}
 header nav #primary-menu {
   padding: 0;
-  margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000314}}
+  margin: 0;
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000334}}
   header nav #primary-menu li {
     list-style: none;
     margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000337}}
     header nav #primary-menu li a {
       color: #404041;
       text-transform: uppercase;
       font-size: 12px;
       font-size: 1.2rem;
       letter-spacing: 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000342}}
       header nav #primary-menu li a:hover {
         color: #f4836d; }
-@media (min-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000341}}
-  header nav {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000348}}
+header nav button {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000353}}
+header #mobileMenu {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  min-width: 300px;
+  z-index: 900;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000366}}
+  header #mobileMenu.show-menu {
+    overflow: auto;
+    height: 100%;
+    padding: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000372}}
+  header #mobileMenu .close {
+    cursor: pointer;
+    position: absolute;
+    top: 21px;
     text-align: right;
-    padding-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000344}}
+    right: 15px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family: "Quicksand", Helvetica, Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000381}}
+    header #mobileMenu .close:hover {
+      color: #f4836d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000384}}
+  header #mobileMenu #primary-menu {
+    padding: 0;
+    margin: 0;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000389}}
+    header #mobileMenu #primary-menu li {
+      list-style: none;
+      margin: 0;
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000394}}
+      header #mobileMenu #primary-menu li ~ li {
+        margin-top: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000396}}
+      header #mobileMenu #primary-menu li a {
+        color: #404041;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-size: 1.2rem;
+        letter-spacing: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003101}}
+        header #mobileMenu #primary-menu li a:hover {
+          color: #f4836d; }
+@media (min-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003114}}
+  header .site-branding {
+    padding: 0 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003115}}
+  header .logo {
+    max-width: 220px; } }
+@media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003123}}
+  header .logo {
+    display: block;
+    margin: 20px auto 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003124}}
+  header .primaryNavLink {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003125}}
+  header nav {
+    text-align: center;
+    padding-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003128}}
     header nav > div {
       display: inline-block;
       vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003132}}
     header nav #primary-menu {
-      padding: 0;
-      margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000351}}
+      display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003134}}
       header nav #primary-menu li {
-        list-style: none;
-        margin: 0;
         display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003136}}
         header nav #primary-menu li ~ li {
-          margin-left: 35px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\0000360}}
+          margin-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003141}}
     header nav button {
       display: inline-block;
       vertical-align: middle;
+      margin-left: 20px; } }
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003152}}
+  header .logo {
+    margin: 20px 0;
+    max-width: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003153}}
+  header nav {
+    text-align: right;
+    padding-top: 30px; } }
+@media (min-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003162}}
+  header .logo {
+    max-width: 220px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003163}}
+  header nav {
+    text-align: right;
+    padding-top: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003168}}
+    header nav #primary-menu li ~ li {
+      margin-left: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/michelle\.wadsworth\/Sites\/wordpress\/bakeawish\/wp-content\/themes\/bakeawish\/scss\/header\.scss}line{font-family:\00003173}}
+    header nav button {
       margin-left: 35px; } }

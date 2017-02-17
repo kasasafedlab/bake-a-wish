@@ -2,6 +2,14 @@ $(document).ready( function() {
 	
 	setupMobileMenu();
 
+	
+	$('.primaryNavLink').click(function(event) {
+		event.preventDefault();
+		$('#mobileMenu').toggleClass('show-menu');
+	});
+	
+	console.log('haskdjhajksdhlkasd');
+	
 });
 
 $(window).load(function() {
