@@ -153,3 +153,10 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/* Change Excerpt length */
+
+function my_excerpt_length( $length ) {
+        return 36;
+}
+add_filter( 'excerpt_length', 'my_excerpt_length' );
