@@ -1,3 +1,16 @@
 @import "mixins";
 
 // *** --------- ABOUT US --------- *** //
+
+
+.who-we-are{
+
+	.about {
+		color: black;
+		margin-bottom:50px;
+		text-align: left;
+		font-size: 13px;
+		line-height: 1.5;
+	}
+
+}
