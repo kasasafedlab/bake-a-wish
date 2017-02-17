@@ -25,6 +25,18 @@
     }
 }
 
+@mixin fullWidthBg($bg) {
+ position: absolute;
+ width: 100vw; // viewport width
+ left: calc(-50vw + (50%));  // assumes the container is full width
+ height: 100%;
+ top: 0;
+ z-index: -1;
+ background: $bg;
+
+
+}
+
 @mixin circle($dimension) {
     width: $dimension;
     height: $dimension;
