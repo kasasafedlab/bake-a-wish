@@ -1,0 +1,108 @@
+@import "mixins";
+
+// *** --------- Single Post --------- *** //
+#content {
+    #primary.single-post {
+        article {
+            width: 100%;
+            max-width: 771px;
+            margin: 0 auto;
+            color: #333333;
+            .post-thumbnail {
+                @include fs(13);
+                color: #666666;
+                font-style: italic;
+                width: 100%;
+                max-width: 771px;
+                margin: 40px auto 0;
+                > img {
+                    display: block;
+                    height: auto;
+                    margin-bottom: 15px;
+                }
+            }
+            section {
+                margin: 40px 0 70px;
+                > * { 
+                    width: 100%;
+                    max-width: 570px; 
+                    margin: 0 auto;
+                }
+                h2 { margin: 30px auto 20px; }
+                h3 { margin: 20px auto; }
+                p {
+                    margin-bottom: 20px;
+                }
+                ul,
+                ol { 
+                    margin-bottom: 50px;
+                    padding-left: 55px;
+                }
+                blockquote {
+                    margin: 60px 0;
+                    border-left: none;
+                    p {
+                        @include f($secondary-font, 44, $weight: 400, $style: normal);
+                        color: #ffcc66;
+                        text-transform: capitalize;
+                        text-align: left;
+                        width: 100%;
+                        max-width: 470px;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px) {
+        article {
+            max-width: 296px;
+            .post-thumbnail {
+                @include fs(12);
+                max-width: 296px;
+            }
+            section {
+                > * {
+                    max-width: 288px;
+                }
+                blockquote {
+                    p {
+                        @include fs(36);
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        
+    }
+
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) {
+        article {
+            max-width: 721px;
+            .post-thumbnail {
+                max-width: 721px;
+            }
+            section {
+                > * {
+                    max-width: 500px;
+                }
+            }
+        }
+    }
+
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) {
+
+    }
+}
