@@ -1,35 +1,31 @@
 <?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package Bake_A_Wish
- */
+    /**
+     * The template for displaying all single posts
+     *
+     * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+     *
+     * @package Bake_A_Wish
+     */
 
-get_header(); ?>
+    get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="single-post content-area">
 		<main id="main" class="site-main" role="main">
+            <article>
+                <?php while ( have_posts() ) : the_post(); ?>
+                    <h1><?php the_title(); ?></h1>
 
-		<?php
-		while ( have_posts() ) : the_post();
+                    <div class="post-thumbnail">
+                        <?php the_post_thumbnail( array( 771, 512 ) );
+                            echo get_post(get_post_thumbnail_id())->post_excerpt;
+                        ?>
+                    </div>
 
-			get_template_part( 'template-parts/content', get_post_format() );
+                    <section><?php the_content(); ?></section>
 
-			the_post_navigation();
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
+                    <?php endwhile; // End of the loop. ?>
+            </article>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php
-get_sidebar();
-get_footer();
+<?php get_footer();
