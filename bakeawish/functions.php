@@ -121,6 +121,8 @@ function bakeawish_scripts() {
 
 	wp_enqueue_script( 'bakeawish-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
+	wp_enqueue_script('cycle2', get_template_directory_uri() .'/js/jquery.cycle2.min.js', array('jquery'), null, true);
+
 	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -157,7 +159,7 @@ require get_template_directory() . '/inc/jetpack.php';
 /* Change Excerpt length */
 
 function my_excerpt_length( $length ) {
-        return 36;
+        return 16;
 }
 add_filter( 'excerpt_length', 'my_excerpt_length' );
 
