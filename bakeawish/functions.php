@@ -156,6 +156,11 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
+/**
+* Add our custom fields
+ */
+require get_template_directory() . '/inc/custom-fields.php';
+
 /* Change Excerpt length */
 
 function my_excerpt_length( $length ) {

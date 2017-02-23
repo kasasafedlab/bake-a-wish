@@ -1,4 +1,3 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/scott\.wedell\/Sites\/wordpress\/bakeawishaustin\/wp-content\/themes\/bakeawish\/scss\/goodiegallery\.scss}line{font-family:\0000345}}
 .goodie-gallery {
   -webkit-flex-direction: column;
   flex-direction: column;
@@ -9,12 +8,10 @@
   -webkit-align-content: flex-start;
   -ms-flex-line-pack: start;
   align-content: flex-start; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/scott\.wedell\/Sites\/wordpress\/bakeawishaustin\/wp-content\/themes\/bakeawish\/scss\/goodiegallery\.scss}line{font-family:\0000351}}
   .goodie-gallery .goodie-thumbnail {
     width: 16.6666666667%;
     padding: 0 15px;
     margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/scott\.wedell\/Sites\/wordpress\/bakeawishaustin\/wp-content\/themes\/bakeawish\/scss\/goodiegallery\.scss}line{font-family:\0000355}}
     .goodie-gallery .goodie-thumbnail img {
       width: 100%;
       height: auto; }
