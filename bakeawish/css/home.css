@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\000034}}
 .banner {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\000037}}
 .heroImage {
   position: absolute;
   width: 100vw;
@@ -15,49 +12,27 @@
   background-size: cover;
   background-position: top center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000312}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/home\.scss}line{font-family:\000034}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 #banner-text {
   padding-top: 14%;
   padding-bottom: 20%; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000316}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/home\.scss}line{font-family:\000038}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 #banner-text p, #banner-text h2 {
   text-align: center !important;
   color: #fff; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000321}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/home\.scss}line{font-family:\0000313}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 #banner-text p {
   font-size: 10px;
   margin-bottom: 10px; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000326}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/home\.scss}line{font-family:\0000317}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 #banner-text h2 {
   font-family: "Quicksand", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000331}}
 .fpSection {
   margin: 60px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000333}}
   .fpSection .fpContent {
     font-size: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000336}}
   .fpSection .fpHeader {
     font-family: "Quicksand", Helvetica, Arial, sans-serif;
     display: block;
@@ -65,10 +40,8 @@
     margin-top: 20px;
     margin-bottom: -10px;
     font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000344}}
   .fpSection .fpLink {
     margin-top: -30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/home\.scss}line{font-family:\0000346}}
     .fpSection .fpLink a {
       font-size: 12px;
       font-family: "Quicksand", Helvetica, Arial, sans-serif;

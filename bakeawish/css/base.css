@@ -1,35 +1,15 @@
 @import url(https://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i|Quicksand:300,400,500,700);
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\000037}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\000037}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 html {
   font-size: 62.5%;
   box-sizing: border-box; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000312}}
 *, *:before, *:after {
   box-sizing: inherit; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000314}}
 #_d, .share-popup, #siteAlert {
   box-sizing: content-box !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000317}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000312}}
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000314}}
-#_d, .share-popup, #siteAlert {
-  box-sizing: content-box !important; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000317}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 body {
   color: #404041;
   font-family: "Merriweather", Georgia, serif;
@@ -43,11 +23,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000332}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000332}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Merriweather", Georgia, serif;
@@ -55,11 +30,6 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2;
   margin: 0 0 .6em; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000341}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000341}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 h1, .h1 {
   font-size: 3.8rem;
   font-family: "Quicksand", Helvetica, Arial, sans-serif;
@@ -70,11 +40,6 @@ h1, .h1 {
   text-align: center;
   position: relative;
   padding-bottom: 36px; }
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/_mixins\.scss}line{font-family:\0000356}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/_mixins\.scss}line{font-family:\0000344}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
   h1:after, .h1:after {
     content: '';
     width: 48px;
@@ -87,11 +52,6 @@ h1, .h1 {
     right: 0;
     margin: 0 auto; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000345}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000345}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 h2, .h2 {
   font-size: 2rem;
   font-family: "Quicksand", Helvetica, Arial, sans-serif;
@@ -100,11 +60,6 @@ h2, .h2 {
   text-transform: uppercase;
   letter-spacing: .06em; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000349}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000349}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 h3, .h3 {
   font-size: 1.8rem;
   font-family: "Quicksand", Helvetica, Arial, sans-serif;
@@ -112,78 +67,34 @@ h3, .h3 {
   color: #404041;
   letter-spacing: .06em; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000353}}
 a {
   text-decoration: none;
   color: #f4836d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000356}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000353}}
-a {
-  text-decoration: none;
-  color: #f4836d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000356}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
   a:hover {
     color: #f7bf5c;
     text-decoration: none; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000359}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000359}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 p, li {
   font-size: 1.8rem;
   font-family: "Merriweather", Georgia, serif;
   line-height: 1.4; }
 
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000365}}
 p {
   margin: 0 0 45px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000369}}
 ul, ol {
   margin: 14px 0 45px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000371}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000365}}
-p {
-  margin: 0 0 45px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000369}}
-ul, ol {
-  margin: 14px 0 45px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000371}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
   ul li, ol li {
     list-style: disc outside;
     margin: 0 0 14px 16px;
     font-size: 16px;
     font-size: 1.6rem; }
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000376}}
     ul li ul li, ul li ol li, ol li ul li, ol li ol li {
       margin-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000382}}
 ol li {
   list-style: decimal outside; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000384}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000376}}
-    ul li ul li, ul li ol li, ol li ul li, ol li ol li {
-      margin-bottom: 0; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000382}}
-ol li {
-  list-style: decimal outside; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000384}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 button {
   display: inline-block;
   text-decoration: none;
@@ -201,18 +112,8 @@ button {
   font-size: 18px;
   font-size: 1.8rem;
   font-family: "Quicksand", Helvetica, Arial, sans-serif; }
-<<<<<<< HEAD
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/_mixins\.scss}line{font-family:\00003181}}
   button:hover {
     background: #f7bf5c; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/base\.scss}line{font-family:\0000389}}
-=======
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/_mixins\.scss}line{font-family:\00003169}}
-  button:hover {
-    background: #f7bf5c; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lauren\.abele\/Desktop\/FEDLabWP\/bakeawish-local\/wp-content\/themes\/bakeawish\/scss\/base\.scss}line{font-family:\0000389}}
->>>>>>> 42fe152ab468ed28d5d20b70f17a7172e8e8fd2a
 img {
   max-width: 100%; }
