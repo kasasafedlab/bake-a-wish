@@ -28,19 +28,36 @@ get_header(); ?>
 				// 	comments_template();
 				// endif;
 
-				   $sponsorsDescription = get_field('sponsors_description');
-	               $client = get_field('client');
-	               $link = get_field('site_link');
-	               $image1 = get_field('image_1');
-	               $image2 = get_field('image_2');
-	               $image3 = get_field('image_3');
-	               $size = "full";
+				   $sponsors1Text = get_field('sponsor1_text');
+				   $sponsors1Img = get_field('sponsor1_img');
+				   $sponsors2Text = get_field('sponsor2_text');
+				   $sponsors2Img = get_field('sponsor2_img');
+	               // $client = get_field('client');
+	               // $link = get_field('site_link');
+	               // $image1 = get_field('image_1');
+	               // $image2 = get_field('image_2');
+	               // $image3 = get_field('image_3');
+	               // $size = "full";
 
 			endwhile; // End of the loop.
 			?>
 
-			
-				<p class="text-center sponsors"><?php echo $sponsorsDescription; ?></p>
+			<div class="sponsors container">
+				<div class="row">
+					<div class="col-md-6">
+						<img class="col-md-6 img-responsive" src="<?php echo $sponsors1Img; ?>">
+						<div class="col-md-6" >
+						<?php echo $sponsors1Text; ?>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<img class="col-md-6 img-responsive"  src="<?php echo $sponsors2Img; ?>">
+						<div class="col-md-6" >
+						<?php echo $sponsors2Text; ?>
+						</div>
+					</div>
+				</div>
+			</div>
 			
 
 		</main><!-- #main -->

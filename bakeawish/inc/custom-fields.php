@@ -254,5 +254,75 @@ if(function_exists("register_field_group"))
 
 // =============END CUSTOM FIELDS FOR HOW TO HELP=================
 
+// =============CUSTOM FIELDS FOR SPONSORS=================
+
+
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_general-pages-sponsors',
+		'title' => 'General Pages - Sponsors',
+		'fields' => array (
+			array (
+				'key' => 'field_58b08af1452a7',
+				'label' => 'Sponsor1 Img',
+				'name' => 'sponsor1_img',
+				'type' => 'image',
+				'save_format' => 'url',
+				'preview_size' => 'medium',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_58b08b0d452a8',
+				'label' => 'Sponsor1 Text',
+				'name' => 'sponsor1_text',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+			array (
+				'key' => 'field_58b08b1f452a9',
+				'label' => 'Sponsor2 Img',
+				'name' => 'sponsor2_img',
+				'type' => 'image',
+				'save_format' => 'url',
+				'preview_size' => 'medium',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_58b08b5a452aa',
+				'label' => 'Sponsor2 Text',
+				'name' => 'sponsor2_text',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'page_template',
+					'operator' => '==',
+					'value' => 'template-sponsors.php',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+// =============END CUSTOM FIELDS FOR SPONSORS=================
+
+
+
 
 ?>
