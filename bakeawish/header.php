@@ -18,7 +18,7 @@
 	<?php wp_head(); ?>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/js/site.js"></script>
+	<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/js/site2.js"></script>
 </head>
 
 <body <?php body_class(); ?>>

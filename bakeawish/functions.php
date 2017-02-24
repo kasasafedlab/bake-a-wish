@@ -132,6 +132,10 @@ function bakeawish_scripts() {
 
 	wp_enqueue_script('cycle2', get_template_directory_uri() .'/js/jquery.cycle2.min.js', array('jquery'), null, true);
 
+	wp_enqueue_script('cycle2-carousel', get_template_directory_uri() .'/js/jquery.cycle2.carousel.min.js', array('jquery'), null, true);
+
+	wp_enqueue_script('site2', get_template_directory_uri() .'/js/site2.js', array('jquery'), null, true);
+
 	
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

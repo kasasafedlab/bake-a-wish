@@ -2,20 +2,23 @@ $(document).ready( function() {
 	
 	setupMobileMenu();
 
-	
+	$(".cycle-carousel-wrap").css("white-space", "normal");
+
 	$('.primaryNavLink').click(function(event) {
 		event.preventDefault();
 		$('#mobileMenu').toggleClass('show-menu');
 	});
 	
-	console.log('haskdjhajksdhlkasd')
-	galleryLayout()
+	// galleryLayout()
 	
 });
 
 $(window).load(function() {
 
+
 })
+
+
 
 
 function setupMobileMenu() {
@@ -29,6 +32,7 @@ function setupMobileMenu() {
 
     $('#mobileMenu .primaryNav > li').addClass('inactive').filter('.inPath').toggleClass('active inactive');
 }
+
 
 function galleryLayout() {
     var gallery = $('.goodie-gallery');
