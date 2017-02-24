@@ -204,24 +204,6 @@ if(function_exists("register_field_group"))
 		'title' => 'General Pages - How to Help',
 		'fields' => array (
 			array (
-				'key' => 'field_58b05924ca839',
-				'label' => 'How to help Description',
-				'name' => 'how_to_help_description',
-				'type' => 'wysiwyg',
-				'default_value' => '',
-				'toolbar' => 'full',
-				'media_upload' => 'yes',
-			),
-			array (
-				'key' => 'field_58b05f4593820',
-				'label' => 'Info Box1',
-				'name' => 'info_box1',
-				'type' => 'wysiwyg',
-				'default_value' => '',
-				'toolbar' => 'full',
-				'media_upload' => 'yes',
-			),
-			array (
 				'key' => 'field_58b05f5693821',
 				'label' => 'Info Box2',
 				'name' => 'info_box2',
@@ -234,9 +216,9 @@ if(function_exists("register_field_group"))
 		'location' => array (
 			array (
 				array (
-					'param' => 'page',
+					'param' => 'page_template',
 					'operator' => '==',
-					'value' => '25',
+					'value' => 'template-how-to-help.php',
 					'order_no' => 0,
 					'group_no' => 0,
 				),
@@ -251,6 +233,7 @@ if(function_exists("register_field_group"))
 		'menu_order' => 0,
 	));
 }
+
 // =============END CUSTOM FIELDS FOR HOW TO HELP=================
 
 
