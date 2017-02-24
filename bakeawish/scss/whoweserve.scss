@@ -1,3 +1,86 @@
 @import "mixins";
 
 // *** --------- WHO WE SERVE --------- *** //
+
+
+
+h2 {
+	margin-bottom: 30px;
+}
+
+p {
+	font-size: 16px;
+	font-family: $base-font;
+}
+
+.partner {
+	// height: 225px;
+	width: 100%;
+	display: inline-flex;
+	margin: 0 0 65px 0;
+	position: relative;
+
+	.partnerLogo {
+		display: flex;
+		align-items: center;
+		img {
+			vertical-align: center;
+		}
+	}
+	.partnerDescription {
+		padding: 15px 20px;
+		p {
+			margin: 0 0 15px;
+		}
+	}
+
+}
+
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  li {
+  	margin-right: 40px;
+  }
+}
+
+
+
+.futurePartners {
+	color: #fff;
+	position: relative;
+	&:before{
+		content:"";
+		@include fullWidthBg($red);
+	}
+	p {
+		margin: 35px 0 28px 0;
+	}
+	button {
+		border-color: #fff;
+		border-style: solid;
+		border-width: 2px;
+		margin: 0 0 35px 0;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 595px){
+	.partnerDescription{
+		display: flex;
+		align-items: center;
+		p {
+			display: none;
+		}
+		a {
+			vertical-align: center;
+		}
+	}
+	ul {
+		columns: 1;
+	}
+}
