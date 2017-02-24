@@ -1,0 +1,60 @@
+h2 {
+  margin-bottom: 30px; }
+
+p {
+  font-size: 16px;
+  font-family: "Merriweather", Georgia, serif; }
+
+.partner {
+  width: 100%;
+  display: inline-flex;
+  margin: 0 0 65px 0;
+  position: relative; }
+  .partner .partnerLogo {
+    display: flex;
+    align-items: center; }
+    .partner .partnerLogo img {
+      vertical-align: center; }
+  .partner .partnerDescription {
+    padding: 15px 20px; }
+    .partner .partnerDescription p {
+      margin: 0 0 15px; }
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2; }
+  ul li {
+    margin-right: 40px; }
+
+.futurePartners {
+  color: #fff;
+  position: relative; }
+  .futurePartners:before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    left: calc(-50vw + (50%));
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    background: #f4836d; }
+  .futurePartners p {
+    margin: 35px 0 28px 0; }
+  .futurePartners button {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0 0 35px 0; }
+
+@media only screen and (max-width: 595px) {
+  .partnerDescription {
+    display: flex;
+    align-items: center; }
+    .partnerDescription p {
+      display: none; }
+    .partnerDescription a {
+      vertical-align: center; }
+
+  ul {
+    columns: 1; } }
