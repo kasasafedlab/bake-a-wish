@@ -15,40 +15,98 @@
 }
 
 /* RECENT POSTS*/
-ul.recent-posts {
-	margin: 0px;
-		li {
-			list-style: none;
-			margin:0px;
-			padding: 0px;
+.recent-posts {
+	/*width: 900px;*/
+	width: auto;
+	margin: auto;
+	@media screen and (max-width: 1120px) {
+		width: auto;
+	}
+	li {
+		list-style: none;
+		margin:0px;
+		padding: 0px;
+	}
+	.recent-posts-container {
+		background: $softgray;
+		margin: 5px;
+		padding: 20px;
+		width: auto;
+		height: auto;
+	   /* height: 220px;*/
+		h4 {
+			text-transform: uppercase;
+			@include f($secondary-font, 18, 800, normal);
+			color: $softblack;
 		}
-		.recent-posts-container {
-			background: $softgray;
-			margin: 5px;
-			padding: 20px;
-		    height: 220px;
-			h4 {
-				text-transform: uppercase;
-				@include f($secondary-font, 18, 800, normal);
-				color: $softblack;
-			}
-			p {
-				@include f($base-font, 16, 200, normal);
-				margin-bottom: 20px;
-				height: 105px;
-				color: $softblack;
-			}
-			span {
-				@include f($secondary-font, 14, 600, normal);
-				text-transform: uppercase;
-				color: $red;
-			}
-			&:hover {
-				background: $softred;
+		p {
+			@include f($base-font, 16, 200, normal);
+			margin-bottom: 20px;
+			height: 105px;
+			color: $softblack;
+		}
+		span {
+			@include f($secondary-font, 14, 600, normal);
+			text-transform: uppercase;
+			color: $red;
+		}
+		&:hover {
+			background: $softred;
+			color: white;
+			p, h4, span {
 				color: white;
-				p, h4, span {
-					color: white;
-				}
 			}
 		}
+	}
+	.carousel-controls {
+		height: 0px;
+		#control-next {
+			position: relative;
+    		float: right;
+    		top: -145px;
+    		left: 30px;
+		}
+		#control-prev {
+			position: relative;
+			top: -120px;
+    		right: 30px;
+		}
+		a {
+			color: $gray;
+			&:hover {
+				color: $softblack;
+			}
+		}
+	}
+	.cycle-pager {
+		text-align: center;
+		width: 100%;
+		margin-top: -5px;
+		span {
+			font-family: arial;
+		    font-size: 40px;
+		    width: 16px;
+		    height: 16px;
+		    display: inline-block;
+		    color: #ddd;
+		    cursor: pointer;
+		    &.cycle-pager-active {
+		    	color: $red;
+		    }
+		}
+	}
+
+}
+
+/*  MEDIA QUERIES */
+@media screen and (max-width: 960px) {
+	.recent-posts {
+		li {}
+		.recent-posts-container {
+			h4 {}
+			p {
+				@include f($base-font, 13, 200, normal);
+			}
+		}
+	}
 }
