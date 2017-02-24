@@ -1,0 +1,28 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/howtohelp\.scss}line{font-family:\000035}}
+.how-to-help {
+  margin-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/howtohelp\.scss}line{font-family:\000037}}
+  .how-to-help .description {
+    margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/howtohelp\.scss}line{font-family:\000039}}
+    .how-to-help .description p {
+      font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/howtohelp\.scss}line{font-family:\0000312}}
+    .how-to-help .description li {
+      font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/howtohelp\.scss}line{font-family:\0000317}}
+  .how-to-help .infoBox {
+    background-color: #f2f2f2;
+    padding: 25px 25px 5px;
+    width: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/howtohelp\.scss}line{font-family:\0000321}}
+    .how-to-help .infoBox h2 {
+      font-size: 1.5rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/howtohelp\.scss}line{font-family:\0000324}}
+    .how-to-help .infoBox h3 {
+      font-size: 1.2rem;
+      margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/meganking\/sites\/wordpress\/bake-a-wish\/wp-content\/themes\/bake-a-wish\/bakeawish\/scss\/howtohelp\.scss}line{font-family:\0000328}}
+    .how-to-help .infoBox p {
+      font-size: 14px;
+      margin-bottom: 20px; }

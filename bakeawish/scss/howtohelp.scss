@@ -1,3 +1,35 @@
 @import "mixins";
 
 // *** --------- HOW TO HELP --------- *** //
+
+.how-to-help{
+	margin-bottom: 50px;
+	.description{
+		    margin-bottom: 30px;
+		p{
+			font-size: 16px;
+		}
+		li{
+			font-size: 14px;
+		}
+	}
+
+	.infoBox{
+		background-color: #f2f2f2;
+		padding: 25px 25px 5px;
+		width: 90%;
+		h2{
+			font-size: 1.5rem;
+		}
+		h3{
+			font-size: 1.2rem;
+			margin-bottom: 20px;
+		}
+		p{
+			font-size: 14px;
+			margin-bottom: 20px;
+		}
+		
+	}
+}
+
