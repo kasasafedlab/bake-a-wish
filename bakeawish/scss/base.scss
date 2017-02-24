@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5, h6,
 	margin: 0 0 .6em;
 }
 
+.page-header{ border: none; }
 
 h1, .h1 {
 	@include h1;
@@ -83,6 +84,11 @@ ol li { list-style: decimal outside; }
 
 button{
 	@include button();
+}
+
+.four-oh-four{
+	//text-align: center;
+	p{ @include fs(16); }
 }
 
 // IMAGES
