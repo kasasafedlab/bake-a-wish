@@ -41,6 +41,7 @@
                 blockquote {
                     margin: 60px 0;
                     border-left: none;
+                    padding: 0;
                     p {
                         @include f($secondary-font, 44, $weight: 400, $style: normal);
                         color: #ffcc66;
@@ -89,6 +90,7 @@
     @media (min-width: 992px) {
         article {
             max-width: 721px;
+            margin: 0 auto;
             .post-thumbnail {
                 max-width: 721px;
             }
