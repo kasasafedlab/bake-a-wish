@@ -195,6 +195,63 @@ if(function_exists("register_field_group"))
 }
 // =======END CUSTOM FIELDS FOR HOME PAGE ===========
 
+// =============CUSTOM FIELDS FOR HOW TO HELP=================
+
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_general-pages-how-to-help',
+		'title' => 'General Pages - How to Help',
+		'fields' => array (
+			array (
+				'key' => 'field_58b05924ca839',
+				'label' => 'How to help Description',
+				'name' => 'how_to_help_description',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+			array (
+				'key' => 'field_58b05f4593820',
+				'label' => 'Info Box1',
+				'name' => 'info_box1',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+			array (
+				'key' => 'field_58b05f5693821',
+				'label' => 'Info Box2',
+				'name' => 'info_box2',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'page',
+					'operator' => '==',
+					'value' => '25',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+// =============END CUSTOM FIELDS FOR HOW TO HELP=================
 
 
 ?>

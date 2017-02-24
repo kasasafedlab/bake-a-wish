@@ -29,18 +29,43 @@ get_header(); ?>
 				// endif;
 
 				   $howToHelpDescription = get_field('how_to_help_description');
-	               $client = get_field('client');
-	               $link = get_field('site_link');
-	               $image1 = get_field('image_1');
-	               $image2 = get_field('image_2');
-	               $image3 = get_field('image_3');
-	               $size = "full";
+				   $infoBox1 = get_field('info_box1');
+				   $infoBox2 = get_field('info_box2');
+	               // $client = get_field('client');
+	               // $link = get_field('site_link');
+	               // $image1 = get_field('image_1');
+	               // $image2 = get_field('image_2');
+	               // $image3 = get_field('image_3');
+	               // $size = "full";
 
 			endwhile; // End of the loop.
 			?>
 
-			
-				<p class="text-center how-to-help"><?php echo $howToHelpDescription; ?></p>
+			<div class="container how-to-help">
+				<div class="row">
+					<div class="description col-md-6 col-md-offset-3">
+					<?php echo $howToHelpDescription; ?>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-4">
+					<div class="infoBox">
+						<?php echo $infoBox1; ?>
+					</div>
+					</div>
+					<div class="donorBox col-md-4">
+					<?php dynamic_sidebar( 'donation-area' ); ?>
+					</div>
+					
+					<div class="col-md-4">
+					<div class="infoBox">
+					<?php echo $infoBox2; ?>
+					</div>
+					</div>
+				</div>
+			</div>
+				
 			
 
 		</main><!-- #main -->
@@ -48,4 +73,4 @@ get_header(); ?>
 
 <?php
 // get_sidebar();
-// get_footer();
+get_footer();
