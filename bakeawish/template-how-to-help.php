@@ -28,7 +28,7 @@ get_header(); ?>
 				// 	comments_template();
 				// endif;
 
-				   $howToHelpDescription = get_field('description');
+				   $howToHelpDescription = get_field('how_to_help_description');
 				   $infoBox1 = get_field('info_box1');
 				   $infoBox2 = get_field('info_box2');
 	               // $client = get_field('client');
