@@ -45,7 +45,7 @@
                     p {
                         @include f($secondary-font, 44, $weight: 400, $style: normal);
                         color: #ffcc66;
-                        text-transform: capitalize;
+                        text-transform: uppercase;
                         text-align: left;
                         width: 100%;
                         max-width: 470px;
