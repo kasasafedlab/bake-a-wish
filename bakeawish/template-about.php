@@ -56,6 +56,11 @@ get_header(); ?>
 
 				</div>
 			</div><!-- .row -->	
+			<div class="row">
+				<div class="col-lg-12 recent-posts-row">
+					<?php get_template_part( 'template-parts/content', 'recentposts' ); ?>
+				</div><!-- .col-lg-12 -->	
+			</div><!-- .row-->
 			<?php endwhile; // End of the loop.
 			?>
 

@@ -6,6 +6,12 @@
   line-height: 1.5; }
 
 /* RECENT POSTS*/
+.recent-posts-row {
+  padding: 20px; }
+  @media screen and (max-width: 800px) {
+    .recent-posts-row {
+      padding: 0px 50px; } }
+
 .recent-posts {
   /*width: 900px;*/
   width: auto;
@@ -83,6 +89,18 @@
       cursor: pointer; }
       .recent-posts .cycle-pager span.cycle-pager-active {
         color: #f4836d; }
+
+#mySlideshowMobile {
+  display: none; }
+  @media screen and (max-width: 800px) {
+    #mySlideshowMobile {
+      display: block; } }
+
+#mySlideshow {
+  display: block; }
+  @media screen and (max-width: 800px) {
+    #mySlideshow {
+      display: none; } }
 
 /*  MEDIA QUERIES */
 @media screen and (max-width: 960px) {

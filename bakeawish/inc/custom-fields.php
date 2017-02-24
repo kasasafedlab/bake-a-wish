@@ -204,27 +204,9 @@ if(function_exists("register_field_group"))
 		'title' => 'General Pages - How to Help',
 		'fields' => array (
 			array (
-				'key' => 'field_58b07d6318da5',
-				'label' => 'Info Box1',
-				'name' => 'info_box1',
-				'type' => 'wysiwyg',
-				'default_value' => '',
-				'toolbar' => 'full',
-				'media_upload' => 'yes',
-			),
-			array (
-				'key' => 'field_58b07d751bb0a',
+				'key' => 'field_58b05f5693821',
 				'label' => 'Info Box2',
 				'name' => 'info_box2',
-				'type' => 'wysiwyg',
-				'default_value' => '',
-				'toolbar' => 'full',
-				'media_upload' => 'yes',
-			),
-			array (
-				'key' => 'field_58b07d951bb0b',
-				'label' => 'Description',
-				'name' => 'description',
 				'type' => 'wysiwyg',
 				'default_value' => '',
 				'toolbar' => 'full',
