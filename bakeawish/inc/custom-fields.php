@@ -305,6 +305,199 @@ if(function_exists("register_field_group"))
 // =============END CUSTOM FIELDS FOR SPONSORS=================
 
 
+// WHO WE ARE & WHO WE SERVE
+
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_who-we-are',
+		'title' => 'Who We Are',
+		'fields' => array (
+			array (
+				'key' => 'field_58a72a4e450d5',
+				'label' => 'Who We Are - Description',
+				'name' => 'who_we_are_description',
+				'type' => 'textarea',
+				'default_value' => '',
+				'placeholder' => '',
+				'maxlength' => '',
+				'rows' => '',
+				'formatting' => 'br',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'page_template',
+					'operator' => '==',
+					'value' => 'template-about.php',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+	register_field_group(array (
+		'id' => 'acf_who-we-serve',
+		'title' => 'Who We Serve',
+		'fields' => array (
+			array (
+				'key' => 'field_58a7494eb1fc7',
+				'label' => 'Who We Serve - Description',
+				'name' => 'who_we_serve_description',
+				'type' => 'textarea',
+				'default_value' => '',
+				'placeholder' => '',
+				'maxlength' => '',
+				'rows' => '',
+				'formatting' => 'br',
+			),
+			array (
+				'key' => 'field_58b0669cc9e6f',
+				'label' => 'Partner Logo Background - Hex Color',
+				'name' => 'partner_logo_background',
+				'type' => 'text',
+				'required' => 1,
+				'default_value' => '#f3f3f3',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_58b0713b0f1aa',
+				'label' => 'Partner Logo',
+				'name' => 'partner_logo',
+				'type' => 'image',
+				'required' => 1,
+				'save_format' => 'url',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_58b06bd6a16ff',
+				'label' => 'Partner Description',
+				'name' => 'partner_description',
+				'type' => 'textarea',
+				'required' => 1,
+				'default_value' => '',
+				'placeholder' => '',
+				'maxlength' => '',
+				'rows' => '',
+				'formatting' => 'br',
+			),
+			array (
+				'key' => 'field_58b06d756afc0',
+				'label' => 'Partner Website',
+				'name' => 'partner_website',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_58b07f4a92508',
+				'label' => 'Partner Logo Background #2 - Hex Color',
+				'name' => 'partner_logo_background_2',
+				'type' => 'text',
+				'required' => 1,
+				'default_value' => '#f3f3f3',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_58b07f712061d',
+				'label' => 'Partner Logo 2',
+				'name' => 'partner_logo_2',
+				'type' => 'image',
+				'required' => 1,
+				'save_format' => 'url',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_58b07f84931ed',
+				'label' => 'Partner Description 2',
+				'name' => 'partner_description_2',
+				'type' => 'textarea',
+				'required' => 1,
+				'default_value' => '',
+				'placeholder' => '',
+				'maxlength' => '',
+				'rows' => '',
+				'formatting' => 'br',
+			),
+			array (
+				'key' => 'field_58b07f95bfea3',
+				'label' => 'Partner Website 2',
+				'name' => 'partner_website_2',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_58b089d75b616',
+				'label' => 'Those We\'ve Served',
+				'name' => 'those_weve_served',
+				'type' => 'wysiwyg',
+				'default_value' => '',
+				'toolbar' => 'full',
+				'media_upload' => 'yes',
+			),
+			array (
+				'key' => 'field_58b09923afd1c',
+				'label' => 'Contact Email',
+				'name' => 'contact_email',
+				'type' => 'text',
+				'required' => 1,
+				'default_value' => 'president@bakeawishaustin.org',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'page_template',
+					'operator' => '==',
+					'value' => 'template-who-we-serve.php',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+//End WHO WE ARE and WHO WE SERVE
+
 
 
 ?>
