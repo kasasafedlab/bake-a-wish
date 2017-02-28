@@ -134,6 +134,8 @@ function bakeawish_scripts() {
 
 	wp_enqueue_script('cycle2-carousel', get_template_directory_uri() .'/js/jquery.cycle2.carousel.min.js', array('jquery'), null, true);
 
+	wp_enqueue_script('site', get_template_directory_uri() .'/js/site.js', array('jquery'), null, true);
+
 	wp_enqueue_script('site2', get_template_directory_uri() .'/js/site2.js', array('jquery'), null, true);
 
 	
@@ -224,3 +226,36 @@ add_image_size( 'gallery-popup', 1540, 600 );
 @ini_set( 'upload_max_size' , '2M' );
 @ini_set( 'post_max_size', '2M');
 @ini_set( 'max_execution_time', '100' );
+
+/**
+ * Register Testimonials Post Type
+ */
+function my_testimonials() {
+	$labels = array(
+		'name'               => 'Testimonials',
+		'singular_name'      => 'Testimonial',
+		'menu_name'          => 'Testimonials',
+		'name_admin_bar'     => 'Testimonials',
+		'add_new'            => 'Add New',
+		'add_new_item'       => 'Add New Testimonial',
+		'new_item'           => 'New Testimonial',
+		'edit_item'          => 'Edit Testimonial',
+		'view_item'          => 'View Testimonial',
+		'all_items'          => 'All Testimonials',
+		'search_items'       => 'Search Testimonials',
+		'parent_item_colon'  => 'Parent Testimonial:',
+		'not_found'          => 'No testimonials found.',
+		'not_found_in_trash' => 'No testimonials found in Trash.'
+	);
+
+	$args = array( 
+		'public'      => true, 
+		'labels'      => $labels,
+		'description' => 'Here is where we can collect all our testimonials!',
+		'menu_icon'   => 'dashicons-format-chat',
+		'taxonomies'  => array('category'),
+		'supports' 	  => array('title','editor', 'custom-fields')
+	);
+    	register_post_type( 'testimonials', $args );
+}
+add_action( 'init', 'my_testimonials' );

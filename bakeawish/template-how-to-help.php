@@ -21,22 +21,10 @@ get_header(); ?>
 			<?php
 			while ( have_posts() ) : the_post();
 
-				get_template_part( 'template-parts/content', 'page' );
-
-				// If comments are open or we have at least one comment, load up the comment template.
-				// if ( comments_open() || get_comments_number() ) :
-				// 	comments_template();
-				// endif;
-
 				   $howToHelpDescription = get_field('how_to_help_description');
 				   $infoBox1 = get_field('info_box1');
 				   $infoBox2 = get_field('info_box2');
-	               // $client = get_field('client');
-	               // $link = get_field('site_link');
-	               // $image1 = get_field('image_1');
-	               // $image2 = get_field('image_2');
-	               // $image3 = get_field('image_3');
-	               // $size = "full";
+
 
 			endwhile; // End of the loop.
 			?>
@@ -44,7 +32,9 @@ get_header(); ?>
 			<div class="container how-to-help">
 				<div class="row">
 					<div class="description col-md-6 col-md-offset-3">
-					<?php echo $howToHelpDescription; ?>
+					<?php if( $howToHelpDescription ): ?>
+						<?php echo $howToHelpDescription; ?>
+					<?php endif; ?>
 					</div>
 				</div>
 				

@@ -17,11 +17,11 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
 	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/js/site.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+	<!-- <script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/js/site.js"></script> -->
 	
 	<link rel="stylesheet" media="screen, handheld, projection" href="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/js/magnific/magnific-popup.css">
-	<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/js/magnific/magnific-popup.1.1.0-min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/bakeawish/js/magnific/magnific-popup.1.1.0-min.js" type="text/javascript" charset="utf-8"></script> 
 </head>
 
 <body <?php body_class(); ?>>
