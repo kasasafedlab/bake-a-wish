@@ -56,5 +56,7 @@ p {
     .partnerDescription a {
       vertical-align: center; }
 
-  ul {
-    columns: 1; } }
+  .thoseWeveServed ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1; } }
