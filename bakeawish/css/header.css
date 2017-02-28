@@ -105,7 +105,7 @@ header #mobileMenu {
       display: inline-block;
       vertical-align: middle; }
     header nav #primary-menu {
-      display: block; }
+      display: inline-block; }
       header nav #primary-menu li {
         display: inline-block; }
         header nav #primary-menu li ~ li {

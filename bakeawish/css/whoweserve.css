@@ -23,7 +23,8 @@ p {
 .thoseWeveServed ul {
   columns: 2;
   -webkit-columns: 2;
-  -moz-columns: 2; }
+  -moz-columns: 2;
+  margin-bottom: 70px; }
   .thoseWeveServed ul li {
     margin-right: 40px; }
 
