@@ -43,7 +43,7 @@ get_header(); ?>
 
 			<div class="who-we-are row">
 
-				<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 about">
+				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 about">
 					<?php if( $whoWeAreDescription ): ?>
 						<?php echo $whoWeAreDescription; ?>
 					<?php endif; ?>
