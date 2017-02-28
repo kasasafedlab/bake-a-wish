@@ -110,7 +110,7 @@ get_header(); ?>
 			</div><!-- .row -->	
 
 
-			<div class="row">
+			<div class="row thoseWeveServed">
 				<?php echo $thoseWeveServed; ?>
 			</div><!-- .row -->	
 

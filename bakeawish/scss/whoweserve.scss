@@ -36,14 +36,15 @@ p {
 
 }
 
-
-ul {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  li {
-  	margin-right: 40px;
-  }
+.thoseWeveServed{
+	ul {
+	  columns: 2;
+	  -webkit-columns: 2;
+	  -moz-columns: 2;
+	  li {
+	  	margin-right: 40px;
+	  }
+	}
 }
 
 
