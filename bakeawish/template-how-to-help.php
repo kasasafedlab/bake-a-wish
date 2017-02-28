@@ -41,7 +41,9 @@ get_header(); ?>
 				<div class="row">
 					<div class="col-md-4">
 					<div class="infoBox">
+					<?php if( $infoBox1 ): ?>
 						<?php echo $infoBox1; ?>
+					<?php endif; ?>
 					</div>
 					</div>
 					<div class="donorBox col-md-4">
@@ -50,7 +52,9 @@ get_header(); ?>
 					
 					<div class="col-md-4">
 					<div class="infoBox">
-					<?php echo $infoBox2; ?>
+					<?php if( $infoBox2 ): ?>
+						<?php echo $infoBox2; ?>
+					<?php endif; ?>
 					</div>
 					</div>
 				</div>
