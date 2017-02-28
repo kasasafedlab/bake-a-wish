@@ -23,7 +23,7 @@
 				<div class="social-links">
 					<a href="https://www.facebook.com/BakeAWishAustin/" target="_blank"><i class="fa fa-facebook"></i></a>
 					<a href="http://twitter.com/BakeAWishAustin" target="_blank"><i class="fa fa-twitter"></i></a>
-					<a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+					<a href="https://www.pinterest.com/bakeawishaustin/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
 				</div>
 				<button href="/how-to-help/" class="give-button">Give</button>
 			</div>

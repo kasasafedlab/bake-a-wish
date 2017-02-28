@@ -29,12 +29,12 @@ get_header(); ?>
 				// endif;
 
 				   $whoWeAreDescription = get_field('who_we_are_description');
-	               $client = get_field('client');
-	               $link = get_field('site_link');
-	               $image1 = get_field('image_1');
-	               $image2 = get_field('image_2');
-	               $image3 = get_field('image_3');
-	               $size = "full";
+	               // $client = get_field('client');
+	               // $link = get_field('site_link');
+	               // $image1 = get_field('image_1');
+	               // $image2 = get_field('image_2');
+	               // $image3 = get_field('image_3');
+	               // $size = "full";
 	               ?>
 
 			
@@ -44,8 +44,9 @@ get_header(); ?>
 			<div class="who-we-are row">
 
 				<div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 about">
-					<?php echo $whoWeAreDescription; ?>
-					
+					<?php if( $whoWeAreDescription ): ?>
+						<?php echo $whoWeAreDescription; ?>
+					<?php endif; ?>
 				</div>
 
 			</div>
